@@ -1,0 +1,47 @@
+﻿{% extends "layout.html" %}
+
+{% block content %}
+
+<h2>{{ title }}.</h2>
+<head>
+    <style>
+        table {
+            width: 90%;
+        }
+
+        td, th {
+            border: 3px solid #000000;
+            text-align: center;
+            padding: 20px;
+        }
+        }
+    </style>
+</head>
+<body>
+
+
+
+    <table>
+        <tr>
+            <th><img src="https://upload.wikimedia.org/wikipedia/commons/6/68/Phalacrocorax_carbo_Vic.jpg" width="250"></th>
+            <th><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRihB8GUC8XE64X6bKqMh1yULRwfX9pkNoLTXCYvhnrRYcZtRPp" width="250"></th>
+            <th><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcRaJyLRsDe2GSR9MaFc9RPjgllazRoW7-bSLZrk5rwFrkTf8k71" width="250"></th>
+        </tr>
+        <tr>
+            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQpySbTKOPXBA1RwKgrw0tnRBIRbGeDYV8Ris3cRtqDe1SrwMjc" width="250"></td>
+            <td><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcSMwbyuBDztITm36IpPLjkPPyK-wS8N4y0LJlJ_somZAEFJMvnL" width="250"></td>
+            <td><img src="https://image.jimcdn.com/app/cms/image/transf/dimension=1920x10000:format=jpg/path/s5dde8bff85c81b2f/image/ie0e15893d5c331ca/version/1480343003/grand-cormoran-fiche-oiseau.jpg" width="250"></td>
+        </tr>
+
+     
+     
+    </table>
+
+</body>
+</html>
+
+<h3>{{ message }}</h3>
+
+<p>Use this area to provide additional information.</p>
+
+{% endblock %}
